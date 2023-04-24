@@ -20,7 +20,8 @@ header {
 }
 #head-menu #menu {
     display: flex;
-    margin-left: 55px;
+    margin-left: 5rem;
+    font-size: 1rem;
 }
 #menu p {
     line-height: 120px;
@@ -34,22 +35,24 @@ header {
     transform: translateX(-50%);
     line-height: 120px;
     color: #d27487;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 1000;
     letter-spacing: 6px;
     user-select: none;
 }
 #soc-net {
     margin: auto 0;
-    margin-right: 48px;
+    margin-right: 3rem;
     user-select: none;
 }
 #soc-net img {
-    margin-left: 18px;
+    margin-left: 1vw;
     cursor: pointer;
+    height: 2vh;
+    width: auto;
 }
 #interior-img {
-    margin: 0 56px;
+    margin: 0 3vh;
     max-width: 100%;
     height: auto;
     margin-left: auto;
@@ -58,7 +61,7 @@ header {
 #about-us {
     height: 800px;
     width: 100%;
-    font-size: 32px;
+    font-size: 2rem;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -68,7 +71,7 @@ header {
     width: 60%;
 }
 #about-us .text-block .text {
-    font-size: 32px;
+    font-size: 2rem;
 }
 #menu-slide {
     height: 1277px;
@@ -76,20 +79,20 @@ header {
     background-color: #e9e9e3;
     display: flex;
     justify-content: space-between;
-    padding: 120px 56px;
+    padding: 4rem 2vw;
     overflow: auto;
 }
 
 /* Buttons */
 .btn {
-    height: 58px;
+    height: 3rem;
     border: 2px solid #6f6f64;
     width: 50%;
-    margin-top: 12px;
+    margin-top: 1rem;
     color: #6f6f64;
-    font-size: 15px;
+    font-size: 1rem;
     text-align: center;
-    line-height: 58px;
+    line-height: 3rem;
     user-select: none;
     cursor: pointer;
 }
@@ -106,13 +109,13 @@ header {
     display: flex;
     justify-content: space-around;
     color: white;
-    padding-top: 120px;
+    padding-top: 3rem;
 }
 
 #img-slide {
     width: 100%;
     height: 912px;
-    padding: 152px 56px 120px;
+    padding: 5rem 3rem 4rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -155,11 +158,11 @@ footer #footer-block {
     cursor: pointer;
 }
 #footer-block .row p {
-    margin-left: 32px;
+    margin-left: 2rem;
 }
 
 #footer-block .row:last-child p {
-    margin-left: 16px;
+    margin-left: 1rem;
     color: #696969;
-    font-size: 13px;
+    font-size: 0.8rem;
 }
