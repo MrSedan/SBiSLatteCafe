@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Latte Cafe</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <div id="head-menu">
+                <div id="menu">
+                    <p>About</p>
+                    <p>Menu</p>
+                    <p>Info</p>
+                    <p>Booking</p>
+                </div>
+                <p id="title">LATTE CAFE</p>
+                <div id="soc-net">
+                    <img src="assets/mail.svg" alt="mail"/>
+                    <img src="assets/facebook.svg" alt="facebook">
+                    <img src="assets/insta.svg" alt="instagram">
+                </div>
+            </div>
+            <img src="assets/interior.png" alt="interior" id="interior-img"/>
+        </header>
+        <div id="about-us">
+            <div class="text-block">
+                <p style="font-weight: 700; font-size: 17px">About us</p>
+                <p class="text">Tucked away in the corner of Wellington, Latte Cafe is a local neighbourhood cafe and bar. Latte is all about doing what we love, in a city that we love. We keep stocked with local produce and pastries. Bring your family for a bite, or meet your friends for a coffee or warm drink.</p>
+            </div>
+        </div>
+        <div id="menu-slide">
+            <div id="menu-choice" style="min-width: 50%; max-width: 50%;">
+                <div id="description">
+                    <p style="color: #6F6F64; font-weight: 700; font-size: 18px;">Menu</p>
+                    <p style="margin-bottom: 74px; width: 50%; font-size: 32px; color: #6F6F64; font-weight: 400;">We change our menu every season. Here is what we are currently dishing up.</p>
+                </div>
+                <div id="food-menu-btn" onclick="changeMenu(1)" class="btn active">Food menu</div>
+                <div id="drinks-menu-btn" onclick="changeMenu(2)" class="btn">Drinks menu</div>
+                <div id="takeaway-menu-btn" onclick="changeMenu(3)" class="btn">Takeaway menu</div>
+            </div>
+            <img src="assets/food_menu.png" alt="menu" id="menu-img" style="max-width: 100%; height: auto;">
+        </div>
+        <div id="info-slide">
+            <div id="address" style="text-align: center; width: 100%;">
+                <p style="font-size: 17px; font-weight: 700;">Location</p>
+                <p style="margin-top: 15px; font-size: 25px;">101 Cuba St,<br/>Te Aro, Wellington</p>
+            </div>
+            <div id="hours" style="text-align: center; width: 100%;">
+                <p style="font-size: 17px; font-weight: 700;">Hours</p>
+                <p style="margin-top: 15px; font-size: 25px;">Tuesday to Friday<br/>7AM - 3PM</p>
+                <p style="margin-top: 35px; font-size: 25px;">Saturday to Sunday<br/>8AM - 3PM</p>
+            </div>
+            <div id="mondays" style="text-align: center; width: 100%;">
+                <p style="font-size: 17px; font-weight: 700;">Mondays?</p>
+                <p style="margin-top: 15px; font-size: 25px;">Tuesday to Friday<br/>We are closed on Mondays to reflect and refuel</p>
+            </div>
+        </div>
+        <div id="img-slide">
+            <div class="column">
+                <img src="assets/col11.png" alt="1">
+                <img src="assets/col12.png" alt="2" style="margin-top: 40px;">
+            </div>
+            <div class="column">
+                <img src="assets/col2.png" alt="3" style="margin-left: 40px;">
+            </div>
+        </div>
+
+        <div id="awards-slide">
+            <p style="font-size: 47px; color: #D27487; width: 100%;">Award winning cafe and bar.</p>
+            <p style="color: #D27487; font-size: 18px; width: 100%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+        <footer>
+            <div id="footer-block">
+                <div class="row">
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Menu</p>
+                    <p>Info</p>
+                    <p>Contact</p>
+                    <p>Bookings</p>
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="row" style="margin-top: 7px;">
+                    <p>Style Guide</p>
+                    <p>Licenses</p>
+                    <p>Instructions</p>
+                    <p>Changelog</p>
+                    <p>Password</p>
+                    <p>404</p>
+                </div>
+                <div class="row" style="margin-top: 19px;">
+                    <p>&#169; Latte Cafe 2022.</p>
+                    <p>Built by Nikolai Bain.</p>
+                    <p>Powered by Webflow.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
